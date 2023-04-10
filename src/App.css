@@ -1,0 +1,312 @@
+.parentBody{
+  background: linear-gradient(rgb(255, 164, 164), rgb(255, 248, 234));
+  height: 100vh;
+  }
+.image{
+  width: 10%;
+}
+
+.search{
+  width: 80vh;
+  border: none;
+  border-color: white !important;
+    border-radius: 20px;
+    height: 6vh;
+    margin: auto;
+  background-color: white !important;
+}
+.searchIcon{
+  width: 50px;
+  height: 4vh;
+  float: right;
+  font-weight: 100;
+}
+.dummyLogo{
+  color: white;
+  font-size: 40px;
+    font-weight: 500;
+    margin-left: -194px;
+}
+.cartIcon{
+  width: 50px;
+  height: 5vh;
+  margin-left: 20px;
+}
+.FavIcon{
+  width: 50px;
+  height: 5vh;
+  margin-left: 20px;
+}
+.Header1{
+  background: rgb(255, 164, 164) ;
+margin: auto;
+padding: 75px;
+display: flex;
+justify-content: center;
+}
+.festiveImage{
+  width:15%;
+  /* margin-top: -117px; */
+}
+.festiveContent{
+  color: brown;
+  font-size: 3rem;
+  line-height: 52px;
+  line-height: 61px;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+} 
+.Header2{
+  background: rgb(255, 99, 99) ;
+margin: auto;
+padding: 75px;
+display: flex;
+justify-content: center;
+}
+.laptopsImage{
+  width:20%;
+  /* margin-top: -117px; */
+}
+.laptopsContent{
+  color: rgb(254, 254, 254);
+  font-size: 3rem;
+  line-height: 52px;
+  line-height: 61px;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+} 
+.Header2P{
+  font-size: 27px;
+}
+/* .Header2>h4>span{
+  font-size: 20px;
+} */
+.Header3{
+  background: rgb(162, 0, 111) ;
+margin: auto;
+padding: 75px;
+display: flex;
+justify-content: center;
+}
+.cardsImage{
+  width:23%;
+  /* margin-top: -117px; */
+}
+.cardsContent{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  line-height: 52px;
+  line-height: 61px;
+  width: 35%;
+  text-align: center;
+  display: inline-block;
+} 
+
+.gridContainer{
+  display: grid;
+  gap: 20px;
+  background: linear-gradient(rgb(255, 164, 164), rgb(255, 248, 234));
+  padding: 10px;
+
+}
+.gridItem1{
+ background-color: rgba(234, 234, 234, 0.8);
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    height: 20rem;
+    border-radius: 21px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.gridImage1{
+width: 40vh;
+height: 30vh;
+}
+.gridContent1{
+  color: black;
+  outline: none;
+padding: 10px;
+}
+.gridItem2{
+  background-color: rgba(234, 234, 234, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    grid-column: 2 / span 1;
+    grid-row: 1;
+    height: 20rem;
+    border-radius: 21px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.gridImage2{
+width: 40vh;
+height: 25vh;
+}
+.gridContent2{
+  color: black;
+    outline: none;
+    /* padding: 10px; */
+    width: 16rem;
+    margin: auto;
+}
+.gridItem3{
+  background-color: rgba(234, 234, 234, 0.8);
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 40px;
+    grid-column: 3 / span 3;
+    grid-row: 1;
+    height: 20rem;
+    border-radius: 21px;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    display: flex;
+}
+.gridImage3{
+  width: 20vh;
+  height: 35vh;
+  margin-right: 70px;
+}
+.gridItem3>p{
+  font: 20px;
+  font-weight: 200;
+}
+.gridContent3{
+  color: black;
+  outline: none;
+  /* padding: 10px; */
+  width: 16rem;
+  margin: auto;
+}
+.dollar280{
+font-size: 25px;
+color: rgb(115, 115, 115);
+text-decoration:line-through ;
+margin-left: 10px;
+}
+.offer{
+  font-size: 20px;
+  color: green;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
+.gridItem4{
+  background-color: rgba(234, 234, 234, 0.8);
+    /* text-align: center; */
+    /* padding: 20px; */
+    font-size: 40px;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    height: 40rem;
+    border-radius: 21px;
+    text-align: center;
+    /* display: flex; */
+}
+.gridImage4{
+  width: 60vh;
+  height: 50vh;
+margin-top: 4px;
+
+}
+.gridContent4{
+  color: black;
+  text-align: center;
+}
+.gridItem5{
+  background-color: rgba(234, 234, 234, 0.8);
+  /* text-align: center; */
+  padding: 20px;
+  font-size: 40px;
+  grid-column: 3 / span 1;
+  grid-row: 2;
+  height: 40rem;
+  border-radius: 21px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.gridImage5{
+width: 40vh;
+height: 40vh;
+margin: auto;
+}
+.gridContent5{
+  color: black;
+}
+.ImageHead{
+display: grid;
+gap: 8vh;
+}
+.ImagesFont{
+  font-size: 20px;
+  color: black;
+}
+.Image1{
+  width: 20vh;
+  height: 20vh;
+  grid-column: 1 / span 1;
+  grid-row: 1;
+}
+.Image2{
+  width: 20vh;
+  height: 30vh;
+  grid-column: 2 / span 1;
+  grid-row: 1;
+  
+}.Image3{
+  width: 20vh;
+  height: 20vh;
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}.Image4{
+  width: 20vh;
+  height: 20vh;
+  grid-column: 2 / span 1;
+  grid-row: 2;
+}
+
+.gridItem6{
+  background-color: rgba(234, 234, 234, 0.8);
+  /* text-align: center; */
+  padding: 20px;
+  font-size: 40px;
+  grid-column: 4 / span 2;
+  grid-row: 2;
+  height: 40rem;
+  border-radius: 21px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  
+}
+.gridImage6{
+width: 40vh;
+height: 40vh;
+/* margin: auto; */
+
+}
+.footer{
+  /* position: fixed; */
+ 
+   width: 100%;
+   height: 10vh;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+   font-weight: 200;
+   font-size: 25px;
+   line-height: 15px;
+}
+.oppoImage1{
+  width: 50%;
+  height: 60%;
+}
